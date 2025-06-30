@@ -1,0 +1,42 @@
+*{padding:0px; margin:0px;}
+.clear{clear:both;}
+body{padding-top:51px; font-size:13px;font-family:"Microsoft YaHei","微软雅黑";}
+li{list-style:none;}
+header{display:block; height:50px; line-height:50px; position:fixed; line-height:52px; left:0px; top:0px; z-index:1000; width:100%; background-color:#222; border-bottom:solid 1px #080808;}
+header .centerBox{width:1050px; margin:auto; height:100%;}
+header .centerBox h1,header .centerBox ul{display:inline-block;}
+header .centerBox h1{width:15.5%; padding-left:2.5%; color:#FFF; font-weight:normal; font-size:1.6em; background-image:url(logo.svg); background-repeat:no-repeat; background-position:left center;}
+header .centerBox ul{width:68%;}
+header .centerBox ul li{display:inline-block; color:#CCC; font-size:1.2em; padding-left:15px; padding-right:15px;}
+header .centerBox ul li:hover{color:#FFF; cursor:pointer;}
+.bannerBox{padding-top:60px; padding-bottom:60px; background-color:#222;}
+.bannerBox .centerBox{width:1050px; margin:auto;}
+.bannerBox .centerBox .bLeft{width:30%; float:left;}
+.bannerBox .centerBox .bRight{width:70%; float:right; text-align:center;}
+.bannerBox .centerBox .bLeft h2,.bannerBox .centerBox .bLeft h3{color:#FFF; font-size:3em;}
+.bannerBox .centerBox .bLeft h3{text-align:center; padding-top:30px; padding-bottom:30px;}
+.bannerBox .centerBox .bLeft ol{padding-left:4em;}
+.bannerBox .centerBox .bLeft ol li{padding-top:10px; padding-bottom:10px; color:#FFF; font-size:1.2em; color:#CCC;}
+.bannerBox .centerBox .bLeft .toDown{background-color:#FFF; height:55px; border:solid 1px #000; text-align:center; line-height:57px; margin-top:50px; font-size:1.6em;-moz-border-radius:8px; -webkit-border-radius:8px; border-radius:8px;}
+.bannerBox .centerBox .bLeft .toDown:hover{cursor:pointer; background-color:#F5F5F5; color:#000; border:solid 1px #FFF;}
+.bannerBox .centerBox .bLeft p{color:#999; text-align:center; padding-top:20px;}
+.bannerBox .centerBox .bRight img{width:80%;}
+main{width:1050px; margin:auto; padding-top:50px; padding-bottom:50px; color:#444; font-size:16px;}
+main .infoBox{padding-bottom:50px;}
+main .infoBox h6{font-size:2em; text-align:center; padding-bottom:20px;}
+main .infoBox p{padding-top:10px; padding-bottom:10px;}
+main .infoBox .box{padding-top:20px; border-top:solid 1px #CCC; margin-top:10px;}
+main .infoBox .box .left{width:65%; float:left;}
+main .infoBox .box .left img{width:95%;}
+main .infoBox .box .right{width:35%; float:right;}
+main .infoBox .box .right strong{font-size:1.4em;}
+main .infoBox .box .right ul{padding-top:20px;}
+main .infoBox .box .right ul li{padding-left:2em; padding-top:10px; padding-bottom:10px; list-style:inside;}
+main .treeBox{}
+main .treeBox .left{width:35%; float:left;}
+main .treeBox .left strong{font-size:1.4em;}
+main .treeBox .left>ul{padding-top:10px;}
+main .treeBox .left>ul>li{padding-left:2em; padding-top:5px; padding-bottom:5px; list-style:inside;}
+main .treeBox .left>ul>li>ol>li{padding-left:2em; list-style:inside}
+main .treeBox .right{width:65%; float:right; text-align:right;}
+main .treeBox .right img{width:95%;}
